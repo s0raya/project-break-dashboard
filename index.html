@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <main class="index">
+        <section class="container_links">
+            <div id="links" class="links">
+                <h2>Añade tu enlace de interés 🔗</h2>
+                <input type="text" id="linkName" class="linkName" placeholder="Nombre de tu enlace">
+                <input type="url" id="linkUrl" class="linkUrl" placeholder="Pega aqui la URL">
+                <button id="linkButton" class="button" onclick="addLinks()">Añadir enlace</button>
+            </div>
+            <div class="containerFavourites" id="containerFavourites">
+                <ul class="ulFavourites" id="ulFavourites"></ul>
+            </div>
+        </section>
+        <section class="section2">
+            <section class="container_clock">
+                <div id="clock" class="clock"></div>
+            </section>
+            <section class="container_weather">
+                <div id="weather" class="weather">
+                    <div id="currentWeather" class="currentWeather"></div>
+                    <div id="forecastWeather" class="forecastWeather"></div>
+                </div>
+            </section>
+            <section class="container_password">
+                <h2>Crea tu contraseña segura 🔐</h2>
+                <div id="password_div" class="password_div">
+                    <h3>Número de carácteres de la contraseña</h3>
+                    <div>
+                        <input type="number" name="password_input" id="password_input" placeholder="12-50" max="50" min="12">
+                        <button id="btn_password" class="button" onclick="getPassword()">Generar contraseña</button>
+                    </div>
+                    <div class="securePassword" id="securePassword"></div>
+                </div>
+            </section>
+        </section>
+        <footer id="footer" class="footer"></footer>
+    </main>
+    <script src="./js/script.js"></script>
+    <script>
+        getFooter(function(html){
+            document.getElementById('footer').innerHTML = html;
+        }, './footer.html');
+        getClock();
+        getLinks();
+        getWeather();
+    </script>
+</body>
+</html>
