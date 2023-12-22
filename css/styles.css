@@ -356,10 +356,13 @@ input:hover {
 		flex-direction: column;
 		align-items: center;
 	}
-	.container_weather, .container_clock, .container_links {
+	.container_weather, .container_links {
 		max-width: 80%;
 	}
 
+	.individual_clock {
+		max-width: 80%;
+	}
 	.section2 .container_weather, .section2 {
 		max-width: 94%;
 	}
@@ -381,7 +384,13 @@ input:hover {
 }
 
 @media (max-width: 415px) {
-	.container_links h2 {
+	.container_links h2{
+		height: 60px;
+	}
+}
+
+@media (max-width: 403px) {
+	.index .container_password h2 {
 		height: 60px;
 	}
 }
