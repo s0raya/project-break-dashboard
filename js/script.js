@@ -230,7 +230,7 @@ function addLinks(){
     let datalink = {id, inputName, inputURL};
     let arr = [...getLocalStorage(), datalink];
     if (inputName && inputURL) {
-        if (inputURL.match(/^(https?:\/\/[\w\.-]+\.\w{2,4})$/)) {
+        if (inputURL.match(/^(?:https?):\/\/(\w+:?\w*)?(\S+)(:\d+)?(\/|\/([\w#!:.?+=&%!\-\/]))?$/)) {
             saveLocalStorage(arr);
             printLinks(inputName,inputURL,id);
             linkUrl.value = "";
