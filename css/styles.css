@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -142,9 +141,8 @@ input:hover {
 
 .container_links {
 	background-color: transparent;
-	width: 29.688em;
 	padding-top: 6%;
-
+	margin-bottom: 1.563em;
 }
 
 .links {
@@ -153,13 +151,13 @@ input:hover {
 	padding: 1.25em;
 	max-width: 25em;
 	gap: 0.625em;
-	margin: auto;
+
 }
 
 .containerFavourites {
 	padding: 1.563em;
 	max-width: 25em;
-	margin: auto;
+
 }
 
 .ulFavourites {
@@ -209,8 +207,7 @@ input:hover {
 .section2 {
 	display: flex;
 	flex-direction: column;
-	width: 29.688em;
-	height: 97vh;
+	gap: 20px;
 
 }
 
@@ -225,17 +222,19 @@ input:hover {
 
 .time {
 	font-size: 3.125em;
+	color: black;
 }
 
 .date {
 	font-size: 1.25em;
+	color: black;
+	font-weight: bold;
 }
 
 .individual_clock {
 	background-color: #33333393;
 	max-width: 25em;
 	border-radius: 15px;
-	margin: auto;
 	padding: 1.25em;
 }
 
@@ -245,9 +244,8 @@ input:hover {
 
 .container_weather {
 	display: flex;
-	flex-direction: column;
-	margin: auto;                                                           
-	width: 29.688em;
+	flex-direction: column;                                                        
+	max-width: 29.688em;
 	background-color: #33333393;
 	border-radius: 15px;
 	height: 270px;
@@ -255,7 +253,7 @@ input:hover {
 }
 
 .weather {
-	width: 29.688em;
+	max-width: 29.688em;
 }
 
 .textWeather {
@@ -291,17 +289,16 @@ input:hover {
 }
 
 .iconWeather {
-	width: 5em;
+	max-width: 5em;
 }
 
 .index_passw .container_password {
-    width: 32.188em;
+    max-width: 32.188em;
     margin: auto;
 }
 
 .index .container_password {
-    width: 32.188em;
-    margin: auto;
+    max-width: 32.188em;
 }
 
 .password_div {
@@ -344,32 +341,36 @@ input:hover {
 	text-shadow: 4px 4px 2px rgba(197,27,33,0.6);
 }
 
-.index_clock, .index_weather, .index_passw {
-	height: 90vh;
+.index_clock, .index_weather, .index_passw, .index_links {
+	height: 100vh;
     display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.index_links {
-	display: flex;
-	justify-content: center;
-}
 
 @media (max-width:1120px) {
-	.index, .index_links, .index_clock, .index_weather, .index_passw {
+	.index {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-
 	}
+	.container_weather, .container_clock, .container_links {
+		max-width: 80%;
+	}
+
+	.section2 .container_weather, .section2 {
+		max-width: 94%;
+	}
+
 	.section2 {
 		gap: 1.25em;
 		order: -1;
 	}
-	.footer {
+	.index .footer {
 		position: sticky;
-		bottom: 25px;
+		
 	}
 	.ulFavourites {
 		height: 250px;
@@ -377,5 +378,23 @@ input:hover {
 	#btn_password {
 		margin-top: 10px;
 	}
+}
 
+@media (max-width: 415px) {
+	.container_links h2 {
+		height: 60px;
+	}
+}
+
+@media (max-width: 390px) {
+	.container_weather {
+		overflow-x: scroll;
+	}
+}
+
+@media (max-width: 376px) {
+
+	.container_password h2 {
+		height: 60px;
+	}
 }

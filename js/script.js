@@ -1,18 +1,18 @@
 /************************** BACKGROUND **************************/
 
 const arrImage = [
-    "./assets/img/img-1.jpg",
-    "./assets/img/img-2.jpg",
-    "./assets/img/img-3.jpg",
-    "./assets/img/img-4.jpg",
-    "./assets/img/img-5.jpg",
-    "./assets/img/img-6.jpg",
-    "./assets/img/img-7.jpg",
-    "./assets/img/img-8.jpg",
-    "./assets/img/img-9.jpg",
-    "./assets/img/img-10.jpg",
-    "./assets/img/img-11.jpg",
-    "./assets/img/img-12.jpg",
+    "assets/img/img-1.jpg",
+    "assets/img/img-2.jpg",
+    "assets/img/img-3.jpg",
+    "assets/img/img-4.jpg",
+    "assets/img/img-5.jpg",
+    "assets/img/img-6.jpg",
+    "assets/img/img-7.jpg",
+    "assets/img/img-8.jpg",
+    "assets/img/img-9.jpg",
+    "assets/img/img-10.jpg",
+    "assets/img/img-11.jpg",
+    "assets/img/img-12.jpg",
     
 ]
 
@@ -114,7 +114,7 @@ const printWeatherCurrent = (dataWeather) => {
     const {location, current, condition} = dataWeather;
     const {region, country} = location;
     const {temp_c, humidity, wind_kph, precip_mm, condition: {text, icon}} = current;
-    const thermometer = '../assets/termometro.png';
+    const thermometer = 'assets/termometro.png';
 
     currentWeather.innerHTML += `
     <div>
