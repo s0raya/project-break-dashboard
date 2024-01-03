@@ -308,6 +308,10 @@ input:hover {
 	margin-top: 0.313em;
 }
 
+#password_input {
+	width: 55px;
+}
+
 .securePassword {
 	display: flex;
 	flex-direction: column;
@@ -404,6 +408,12 @@ input:hover {
 @media (max-width: 376px) {
 
 	.container_password h2 {
+		height: 60px;
+	}
+}
+
+@media (max-width: 521px) {
+	.links h2 {
 		height: 60px;
 	}
 }
