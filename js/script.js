@@ -1,18 +1,18 @@
 /************************** BACKGROUND **************************/
 
 const arrImage = [
-    "assets/img/img-1.jpg",
-    "assets/img/img-2.jpg",
-    "assets/img/img-3.jpg",
-    "assets/img/img-4.jpg",
-    "assets/img/img-5.jpg",
-    "assets/img/img-6.jpg",
-    "assets/img/img-7.jpg",
-    "assets/img/img-8.jpg",
-    "assets/img/img-9.jpg",
-    "assets/img/img-10.jpg",
-    "assets/img/img-11.jpg",
-    "assets/img/img-12.jpg",
+    "assets/img/img-1.webp",
+    "assets/img/img-2.webp",
+    "assets/img/img-3.webp",
+    "assets/img/img-4.webp",
+    "assets/img/img-5.webp",
+    "assets/img/img-6.webp",
+    "assets/img/img-7.webp",
+    "assets/img/img-8.webp",
+    "assets/img/img-9.webp",
+    "assets/img/img-10.webp",
+    "assets/img/img-11.webp",
+    "assets/img/img-12.webp",
     
 ]
 
