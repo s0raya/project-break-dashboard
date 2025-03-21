@@ -1,6 +1,9 @@
 <h1 align="center">Dashboard</h1>
 
-![Dashboard imagen](assets/readme.png)
+<p align="center">
+  <img src="assets/readme.png" alt="Vista del Dashboard">
+</p>
+
 
 Este proyecto consiste en un Dasboard en el que podrás ver 4 elementos:
 - Un reloj digital 24h + Fecha
