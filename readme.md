@@ -1,7 +1,8 @@
-# PROJECT BRAKE 1 - Dashboard
-Bienvenido al primer PROJECT BREAK. Después de varias semanas de duro trabajo vamos a poner en práctica todo lo que has aprendido.
+<h1 align="center">Dashboard</h1>
 
-Vas a crear un Dasboard en el que podrás ver 4 elementos:
+![Dashboard imagen](assets/readme.png)
+
+Este proyecto consiste en un Dasboard en el que podrás ver 4 elementos:
 - Un reloj digital 24h + Fecha
 - Una estación meteorológica
 - Un creador de contraseñas seguras

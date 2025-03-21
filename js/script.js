@@ -97,7 +97,7 @@ const fetchWeather = async (apiKey, city) => {
         const res = await fetch(
             `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=no`
             );
-            if(!res.ok) {
+            if (!res.ok) {
                 throw new Error('Ha surgido un error', res.status);
             }
             const dataWeather = await res.json();
@@ -211,8 +211,8 @@ let array = passwd.split("");
 for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
-}
-return array.join("");
+    }
+    return array.join("");
 }
 
 
