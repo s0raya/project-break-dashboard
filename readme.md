@@ -4,6 +4,7 @@
   <img src="assets/readme.png" alt="Vista del Dashboard">
 </p>
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 Este proyecto consiste en un Dasboard en el que podrás ver 4 elementos:
 - Un reloj digital 24h + Fecha
