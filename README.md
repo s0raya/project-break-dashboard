@@ -7,7 +7,7 @@ Este proyecto es un **Dashboard interactivo** que integra varias funcionalidades
 
 <img src="./assets/readme.png" alt="Vista del Dashboard">
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Javascript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff) ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
 
 </div>
 
