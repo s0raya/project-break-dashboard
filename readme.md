@@ -1,4 +1,4 @@
-<h1>Dashboard</h1>
+<h1 align="center">Dashboard</h1>
 
 Este proyecto es un **Dashboard interactivo** que integra varias funcionalidades útiles y atractivas. Cada componente del dashboard está diseñado para operar de manera independiente, permitiendo una experiencia fluida y dinámica.
 
