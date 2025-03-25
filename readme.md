@@ -1,10 +1,15 @@
-<h1 align="center">Dashboard</h1>
+<div align="center">
+
+# Dashboard
 
 Este proyecto es un **Dashboard interactivo** que integra varias funcionalidades útiles y atractivas. Cada componente del dashboard está diseñado para operar de manera independiente, permitiendo una experiencia fluida y dinámica.
 
-<img src="assets/readme.png" alt="Vista del Dashboard">
+
+<img src="./assets/readme.png" alt="Vista del Dashboard">
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+</div>
 
 
 ### ✨ **Funcionalidades principales**
